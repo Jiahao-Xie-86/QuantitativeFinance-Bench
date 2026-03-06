@@ -18,7 +18,7 @@ def load_json(path):
         return json.loads(f.read())
 def write_json(path, obj):
     """Write JSON, converting Python NaN/Infinity to JSON null."""
-    """Write JSON, converting Python NaN/Infinity to JSON null."""
+def write_json(path, obj):
     # First pass: walk the object and replace nan/inf with None so
     # json.dumps produces valid JSON (nan is not valid JSON).
 
