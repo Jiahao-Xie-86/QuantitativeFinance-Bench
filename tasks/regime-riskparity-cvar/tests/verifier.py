@@ -290,7 +290,12 @@ def check_intermediates(
                         error_class = "mislabeling"
                     else:
                         error_class = "convention"
-                    ]:
+                if matched_sibling:
+                    # Value matches a sibling — is it convention or mislabeling?
+                    if term_name != matched_sibling:
+                        error_class = "mislabeling"
+                    else:
+                        error_class = "convention"
                         error_class = "mislabeling"
                     else:
                         error_class = "convention"
