@@ -7,7 +7,7 @@
       "deliverables": [
         {
           "name": "portfolio_var",
-          "value": 107.7754990396931,
+          "value": 216.47688127607594,
           "path": "results.json:portfolio_var",
           "tolerance": {
             "rtol": 0.05,
@@ -16,7 +16,7 @@
         },
         {
           "name": "delta_var_pct",
-          "value": 66.31359478657153,
+          "value": 64.84502770023487,
           "path": "results.json:delta_var_pct",
           "tolerance": {
             "rtol": 0.05,
@@ -25,7 +25,7 @@
         },
         {
           "name": "gamma_var_pct",
-          "value": 0.2844669770668999,
+          "value": 0.2969718756979214,
           "path": "results.json:gamma_var_pct",
           "tolerance": {
             "rtol": 0.1,
@@ -34,7 +34,7 @@
         },
         {
           "name": "vega_var_pct",
-          "value": 33.40193823636158,
+          "value": 34.85800042406721,
           "path": "results.json:vega_var_pct",
           "tolerance": {
             "rtol": 0.1,
@@ -44,7 +44,7 @@
       ],
       "checkpoints": {
         "garch_omega": {
-          "value": 5.3846171600422076e-05,
+          "value": 2.117783767122164e-06,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -53,7 +53,7 @@
           "siblings": {}
         },
         "garch_alpha": {
-          "value": 0.04314606276531764,
+          "value": 0.015851259419804507,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -62,7 +62,7 @@
           "siblings": {}
         },
         "garch_beta": {
-          "value": 0.5428565489041836,
+          "value": 0.9746670081834722,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -71,7 +71,7 @@
           "siblings": {}
         },
         "garch_persistence": {
-          "value": 0.5860026116695012,
+          "value": 0.9905182676032767,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -80,7 +80,7 @@
           "siblings": {}
         },
         "long_run_variance": {
-          "value": 0.00013006403691956644,
+          "value": 0.00022335409590909982,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -89,7 +89,7 @@
           "siblings": {}
         },
         "garch_vol": {
-          "value": 0.1808508299054229,
+          "value": 0.2586800935963609,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -98,7 +98,7 @@
           "siblings": {}
         },
         "analytical_price": {
-          "value": 7.045514846342574,
+          "value": 13.276884710501182,
           "concept": "dv.barrier_option",
           "domain": "DV",
           "tolerance": {
@@ -108,7 +108,7 @@
           "siblings": {}
         },
         "delta": {
-          "value": 0.6077183463339711,
+          "value": 0.592969059505157,
           "concept": "dv.bsm_analytical",
           "domain": "DV",
           "tolerance": {
@@ -118,7 +118,7 @@
           "siblings": {}
         },
         "gamma": {
-          "value": 0.027561192855277226,
+          "value": 0.013650027433967774,
           "concept": "dv.bsm_analytical",
           "domain": "DV",
           "tolerance": {
@@ -128,7 +128,7 @@
           "siblings": {}
         },
         "vega": {
-          "value": 29.610156873525415,
+          "value": 42.47712221840683,
           "concept": "dv.bsm_analytical",
           "domain": "DV",
           "tolerance": {
@@ -146,7 +146,7 @@
       "deliverables": [
         {
           "name": "portfolio_var",
-          "value": 155.80146215803236,
+          "value": 313.9273855192073,
           "path": "results.json:portfolio_var",
           "tolerance": {
             "rtol": 0.05,
@@ -155,7 +155,7 @@
         },
         {
           "name": "delta_var_pct",
-          "value": 56.33130325095507,
+          "value": 55.529103179015614,
           "path": "results.json:delta_var_pct",
           "tolerance": {
             "rtol": 0.05,
@@ -164,7 +164,7 @@
         },
         {
           "name": "gamma_var_pct",
-          "value": 3.6894738983066775,
+          "value": 3.7578546708096634,
           "path": "results.json:gamma_var_pct",
           "tolerance": {
             "rtol": 0.1,
@@ -173,7 +173,7 @@
         },
         {
           "name": "vega_var_pct",
-          "value": 39.97922285073825,
+          "value": 40.71304215017473,
           "path": "results.json:vega_var_pct",
           "tolerance": {
             "rtol": 0.1,
@@ -183,7 +183,7 @@
       ],
       "checkpoints": {
         "garch_omega": {
-          "value": 5.3846171600422076e-05,
+          "value": 2.117783767122164e-06,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -192,7 +192,7 @@
           "siblings": {}
         },
         "garch_alpha": {
-          "value": 0.04314606276531764,
+          "value": 0.015851259419804507,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -201,7 +201,7 @@
           "siblings": {}
         },
         "garch_beta": {
-          "value": 0.5428565489041836,
+          "value": 0.9746670081834722,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -210,7 +210,7 @@
           "siblings": {}
         },
         "garch_persistence": {
-          "value": 0.5860026116695012,
+          "value": 0.9905182676032767,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -219,7 +219,7 @@
           "siblings": {}
         },
         "long_run_variance": {
-          "value": 0.00013006403691956644,
+          "value": 0.00022335409590909982,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -228,7 +228,7 @@
           "siblings": {}
         },
         "garch_vol": {
-          "value": 0.1808508299054229,
+          "value": 0.2586800935963609,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -237,7 +237,7 @@
           "siblings": {}
         },
         "analytical_price": {
-          "value": 7.045514846342574,
+          "value": 13.276884710501182,
           "concept": "dv.barrier_option",
           "domain": "DV",
           "tolerance": {
@@ -247,7 +247,7 @@
           "siblings": {}
         },
         "delta": {
-          "value": 0.6077183463339711,
+          "value": 0.592969059505157,
           "concept": "dv.bsm_analytical",
           "domain": "DV",
           "tolerance": {
@@ -257,7 +257,7 @@
           "siblings": {}
         },
         "gamma": {
-          "value": 0.027561192855277226,
+          "value": 0.013650027433967774,
           "concept": "dv.bsm_analytical",
           "domain": "DV",
           "tolerance": {
@@ -267,7 +267,7 @@
           "siblings": {}
         },
         "vega": {
-          "value": 29.610156873525415,
+          "value": 42.47712221840683,
           "concept": "dv.bsm_analytical",
           "domain": "DV",
           "tolerance": {
@@ -285,7 +285,7 @@
       "deliverables": [
         {
           "name": "portfolio_var",
-          "value": 107.88392902605965,
+          "value": 198.96458518370727,
           "path": "results.json:portfolio_var",
           "tolerance": {
             "rtol": 0.05,
@@ -294,7 +294,7 @@
         },
         {
           "name": "delta_var_pct",
-          "value": 66.30738302518026,
+          "value": 64.98976333571844,
           "path": "results.json:delta_var_pct",
           "tolerance": {
             "rtol": 0.05,
@@ -303,7 +303,7 @@
         },
         {
           "name": "gamma_var_pct",
-          "value": 0.2845197713045989,
+          "value": 0.2957315503832792,
           "path": "results.json:gamma_var_pct",
           "tolerance": {
             "rtol": 0.1,
@@ -312,7 +312,7 @@
         },
         {
           "name": "vega_var_pct",
-          "value": 33.40809720351514,
+          "value": 34.714505113898284,
           "path": "results.json:vega_var_pct",
           "tolerance": {
             "rtol": 0.1,
@@ -322,7 +322,7 @@
       ],
       "checkpoints": {
         "garch_omega": {
-          "value": 5.3846171600422076e-05,
+          "value": 2.117783767122164e-06,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -331,7 +331,7 @@
           "siblings": {}
         },
         "garch_alpha": {
-          "value": 0.04314606276531764,
+          "value": 0.015851259419804507,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -340,7 +340,7 @@
           "siblings": {}
         },
         "garch_beta": {
-          "value": 0.5428565489041836,
+          "value": 0.9746670081834722,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -349,7 +349,7 @@
           "siblings": {}
         },
         "garch_persistence": {
-          "value": 0.5860026116695012,
+          "value": 0.9905182676032767,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -358,7 +358,7 @@
           "siblings": {}
         },
         "long_run_variance": {
-          "value": 0.00013006403691956644,
+          "value": 0.00022335409590909982,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -367,7 +367,7 @@
           "siblings": {}
         },
         "garch_vol": {
-          "value": 0.18104181092700863,
+          "value": 0.2586800935963609,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -376,7 +376,7 @@
           "siblings": {}
         },
         "analytical_price": {
-          "value": 7.051170337032275,
+          "value": 13.276884710501182,
           "concept": "dv.barrier_option",
           "domain": "DV",
           "tolerance": {
@@ -386,7 +386,7 @@
           "siblings": {}
         },
         "delta": {
-          "value": 0.6076595655558604,
+          "value": 0.592969059505157,
           "concept": "dv.bsm_analytical",
           "domain": "DV",
           "tolerance": {
@@ -396,7 +396,7 @@
           "siblings": {}
         },
         "gamma": {
-          "value": 0.027533299606550335,
+          "value": 0.013650027433967774,
           "concept": "dv.bsm_analytical",
           "domain": "DV",
           "tolerance": {
@@ -406,7 +406,7 @@
           "siblings": {}
         },
         "vega": {
-          "value": 29.61140930051935,
+          "value": 42.47712221840683,
           "concept": "dv.bsm_analytical",
           "domain": "DV",
           "tolerance": {
@@ -424,7 +424,7 @@
       "deliverables": [
         {
           "name": "portfolio_var",
-          "value": 155.96037701899607,
+          "value": 288.4456559258536,
           "path": "results.json:portfolio_var",
           "tolerance": {
             "rtol": 0.05,
@@ -433,7 +433,7 @@
         },
         {
           "name": "delta_var_pct",
-          "value": 56.32788208436508,
+          "value": 55.607613349305616,
           "path": "results.json:delta_var_pct",
           "tolerance": {
             "rtol": 0.05,
@@ -442,7 +442,7 @@
         },
         {
           "name": "gamma_var_pct",
-          "value": 3.6897649726129376,
+          "value": 3.7511169808045306,
           "path": "results.json:gamma_var_pct",
           "tolerance": {
             "rtol": 0.1,
@@ -451,7 +451,7 @@
         },
         {
           "name": "vega_var_pct",
-          "value": 39.982352943022,
+          "value": 40.641269669889844,
           "path": "results.json:vega_var_pct",
           "tolerance": {
             "rtol": 0.1,
@@ -461,7 +461,7 @@
       ],
       "checkpoints": {
         "garch_omega": {
-          "value": 5.3846171600422076e-05,
+          "value": 2.117783767122164e-06,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -470,7 +470,7 @@
           "siblings": {}
         },
         "garch_alpha": {
-          "value": 0.04314606276531764,
+          "value": 0.015851259419804507,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -479,7 +479,7 @@
           "siblings": {}
         },
         "garch_beta": {
-          "value": 0.5428565489041836,
+          "value": 0.9746670081834722,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -488,7 +488,7 @@
           "siblings": {}
         },
         "garch_persistence": {
-          "value": 0.5860026116695012,
+          "value": 0.9905182676032767,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -497,7 +497,7 @@
           "siblings": {}
         },
         "long_run_variance": {
-          "value": 0.00013006403691956644,
+          "value": 0.00022335409590909982,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -506,7 +506,7 @@
           "siblings": {}
         },
         "garch_vol": {
-          "value": 0.18104181092700863,
+          "value": 0.2586800935963609,
           "concept": "vol.garch",
           "domain": "DV",
           "tolerance": {
@@ -515,7 +515,7 @@
           "siblings": {}
         },
         "analytical_price": {
-          "value": 7.051170337032275,
+          "value": 13.276884710501182,
           "concept": "dv.barrier_option",
           "domain": "DV",
           "tolerance": {
@@ -525,7 +525,7 @@
           "siblings": {}
         },
         "delta": {
-          "value": 0.6076595655558604,
+          "value": 0.592969059505157,
           "concept": "dv.bsm_analytical",
           "domain": "DV",
           "tolerance": {
@@ -535,7 +535,7 @@
           "siblings": {}
         },
         "gamma": {
-          "value": 0.027533299606550335,
+          "value": 0.013650027433967774,
           "concept": "dv.bsm_analytical",
           "domain": "DV",
           "tolerance": {
@@ -545,7 +545,7 @@
           "siblings": {}
         },
         "vega": {
-          "value": 29.61140930051935,
+          "value": 42.47712221840683,
           "concept": "dv.bsm_analytical",
           "domain": "DV",
           "tolerance": {

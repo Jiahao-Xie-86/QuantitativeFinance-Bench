@@ -12,7 +12,7 @@
   "deliverables": [
     {
       "name": "portfolio_var",
-      "value": 107.7754990396931,
+      "value": 216.47688127607594,
       "path": "results.json:portfolio_var",
       "tolerance": {
         "rtol": 0.05,
@@ -21,7 +21,7 @@
     },
     {
       "name": "delta_var_pct",
-      "value": 66.31359478657153,
+      "value": 64.84502770023487,
       "path": "results.json:delta_var_pct",
       "tolerance": {
         "rtol": 0.05,
@@ -30,7 +30,7 @@
     },
     {
       "name": "gamma_var_pct",
-      "value": 0.2844669770668999,
+      "value": 0.2969718756979214,
       "path": "results.json:gamma_var_pct",
       "tolerance": {
         "rtol": 0.1,
@@ -39,7 +39,7 @@
     },
     {
       "name": "vega_var_pct",
-      "value": 33.40193823636158,
+      "value": 34.85800042406721,
       "path": "results.json:vega_var_pct",
       "tolerance": {
         "rtol": 0.1,
