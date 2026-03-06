@@ -43,6 +43,12 @@ def _check_scalar(actual: float, expected: float, tol: dict) -> bool:
         atol = tol.get("atol")
         rtol = tol.get("rtol")
         if atol is not None and abs(actual) <= atol:
+    if math.isnan(actual):
+        return False
+    if expected == 0:
+        atol = tol.get("atol")
+        rtol = tol.get("rtol")
+        if atol is not None and abs(actual) <= atol:
             return True
         if rtol is not None and actual == 0:
             return True
