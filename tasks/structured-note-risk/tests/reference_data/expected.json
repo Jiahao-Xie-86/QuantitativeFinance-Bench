@@ -12,7 +12,7 @@
   "deliverables": [
     {
       "name": "fair_value",
-      "value": 1132.6390588775341,
+      "value": 1035.35767798707,
       "path": "results.json:fair_value",
       "tolerance": {
         "rtol": 0.02,
@@ -21,7 +21,7 @@
     },
     {
       "name": "markup_pct",
-      "value": -11.710620240218613,
+      "value": -3.415020600012548,
       "path": "results.json:markup_pct",
       "tolerance": {
         "rtol": 0.05,
@@ -30,7 +30,7 @@
     },
     {
       "name": "note_var_99",
-      "value": 56.814833748602965,
+      "value": 17.60037774602308,
       "path": "results.json:note_var_99",
       "tolerance": {
         "rtol": 0.05,
@@ -39,7 +39,7 @@
     },
     {
       "name": "note_es_99",
-      "value": 151.42370283335956,
+      "value": 46.90877705215862,
       "path": "results.json:note_es_99",
       "tolerance": {
         "rtol": 0.05,
@@ -48,7 +48,7 @@
     },
     {
       "name": "breakeven_vol",
-      "value": NaN,
+      "value": 0.08266075008190174,
       "path": "results.json:breakeven_vol",
       "tolerance": {
         "rtol": 0.05,
@@ -57,7 +57,7 @@
     },
     {
       "name": "garch_persistence",
-      "value": 0.9557451524302403,
+      "value": 0.9905182676032767,
       "path": "results.json:garch_persistence",
       "tolerance": {
         "rtol": 0.02
@@ -65,7 +65,7 @@
     },
     {
       "name": "long_run_variance",
-      "value": 0.0011250863291528052,
+      "value": 0.00022335409590909982,
       "path": "results.json:long_run_variance",
       "tolerance": {
         "rtol": 0.1
@@ -73,7 +73,7 @@
     },
     {
       "name": "garch_vol",
-      "value": 0.5937950847931687,
+      "value": 0.2586800935963609,
       "path": "results.json:garch_vol",
       "tolerance": {
         "rtol": 0.05
@@ -90,7 +90,7 @@
     },
     {
       "name": "option_unit_price",
-      "value": 10.300195875733914,
+      "value": 2.8723811969778144,
       "path": "results.json:option_unit_price",
       "tolerance": {
         "rtol": 0.02,
@@ -99,7 +99,7 @@
     },
     {
       "name": "option_value",
-      "value": 138.02450508614294,
+      "value": 40.743124195678774,
       "path": "results.json:option_value",
       "tolerance": {
         "rtol": 0.02,
@@ -108,7 +108,7 @@
     },
     {
       "name": "n_options",
-      "value": 13.400182554907806,
+      "value": 14.184441897387014,
       "path": "results.json:n_options",
       "tolerance": {
         "rtol": 0.001
@@ -116,7 +116,7 @@
     },
     {
       "name": "option_delta",
-      "value": 0.5935510381383978,
+      "value": 0.4220772133647326,
       "path": "results.json:option_delta",
       "tolerance": {
         "rtol": 0.02,
@@ -125,7 +125,7 @@
     },
     {
       "name": "note_delta",
-      "value": 7.953692266709576,
+      "value": 5.986929709183071,
       "path": "results.json:note_delta",
       "tolerance": {
         "rtol": 0.02,

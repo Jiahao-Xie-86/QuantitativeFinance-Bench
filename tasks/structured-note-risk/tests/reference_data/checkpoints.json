@@ -1,7 +1,7 @@
 {
   "checkpoints": {
     "garch_omega": {
-      "value": 4.979052399947791e-05,
+      "value": 2.117783767122164e-06,
       "concept": "vol.garch",
       "domain": "DV",
       "tolerance": {
@@ -10,7 +10,7 @@
       "siblings": {}
     },
     "garch_alpha": {
-      "value": 0.11426995411855383,
+      "value": 0.015851259419804507,
       "concept": "vol.garch",
       "domain": "DV",
       "tolerance": {
@@ -19,7 +19,7 @@
       "siblings": {}
     },
     "garch_beta": {
-      "value": 0.8414751983116865,
+      "value": 0.9746670081834722,
       "concept": "vol.garch",
       "domain": "DV",
       "tolerance": {
@@ -28,7 +28,7 @@
       "siblings": {}
     },
     "garch_persistence": {
-      "value": 0.9557451524302403,
+      "value": 0.9905182676032767,
       "concept": "vol.garch",
       "domain": "DV",
       "tolerance": {
@@ -37,7 +37,7 @@
       "siblings": {}
     },
     "long_run_variance": {
-      "value": 0.0011250863291528052,
+      "value": 0.00022335409590909982,
       "concept": "vol.garch",
       "domain": "DV",
       "tolerance": {
@@ -46,7 +46,7 @@
       "siblings": {}
     },
     "garch_vol": {
-      "value": 0.5937950847931687,
+      "value": 0.2586800935963609,
       "concept": "vol.garch",
       "domain": "DV",
       "tolerance": {
@@ -65,7 +65,7 @@
       "siblings": {}
     },
     "option_unit_price": {
-      "value": 10.300195875733914,
+      "value": 2.8723811969778144,
       "concept": "dv.barrier_option",
       "domain": "DV",
       "tolerance": {
@@ -75,7 +75,7 @@
       "siblings": {}
     },
     "option_value": {
-      "value": 138.02450508614294,
+      "value": 40.743124195678774,
       "concept": "dv.barrier_option",
       "domain": "DV",
       "tolerance": {
@@ -85,7 +85,7 @@
       "siblings": {}
     },
     "n_options": {
-      "value": 13.400182554907806,
+      "value": 14.184441897387014,
       "concept": "",
       "domain": "DV",
       "tolerance": {
@@ -94,7 +94,7 @@
       "siblings": {}
     },
     "option_delta": {
-      "value": 0.5935510381383978,
+      "value": 0.4220772133647326,
       "concept": "dv.bsm_analytical",
       "domain": "DV",
       "tolerance": {
@@ -104,7 +104,7 @@
       "siblings": {}
     },
     "note_delta": {
-      "value": 7.953692266709576,
+      "value": 5.986929709183071,
       "concept": "",
       "domain": "DV",
       "tolerance": {
