@@ -1251,9 +1251,6 @@ def solve_sentiment(prices_data=None, dates=None, tickers=None,
     result = stats.linregress(mkt_aligned, portfolio_returns)
     slope, intercept, r_value, p_value, stderr = (
         result.slope, result.intercept, result.rvalue,
-    result = stats.linregress(mkt_aligned, portfolio_returns)
-    slope, intercept, r_value, p_value, stderr = (
-        result.slope, result.intercept, result.rvalue,
         result.pvalue, result.stderr,
     )
     alpha_daily = float(intercept)
