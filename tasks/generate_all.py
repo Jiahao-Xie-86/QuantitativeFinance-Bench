@@ -1340,11 +1340,6 @@ def solve_sentiment(prices_data=None, dates=None, tickers=None,
 
     # Regression with log returns
     log_mkt_aligned = np.array([date_to_mkt.get(d, 0.0) for d in log_port_dates])
-    log_slope, log_intercept, log_r_value, _, log_stderr = stats.linregress(
-        log_mkt_aligned, log_port_returns)
-    log_alpha_daily = float(log_intercept)
-    log_beta = float(log_slope)
-    log_r_squared = float(log_r_value ** 2)
     log_result = stats.linregress(log_mkt_aligned, log_port_returns)
     log_beta = float(log_slope)
     log_r_squared = float(log_r_value ** 2)
