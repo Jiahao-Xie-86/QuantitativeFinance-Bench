@@ -141,7 +141,8 @@ def test_daily_portfolio_shape_and_final_values():
     assert np.isclose(portfolio["strategy_nav"].iloc[-1], load_results()["strategy"]["final_nav"], atol=1e-12)
     assert np.isclose(portfolio["equal_weight_nav"].iloc[-1], load_results()["benchmark"]["final_nav"], atol=1e-12)
 
-
+    html = (OUTPUT_DIR / "cumulative_returns.html").read_text()
+    assert "plotly" in html.lower(), "Expected Plotly HTML output"
 def test_plotly_html_contains_expected_content():
     """Check that the interactive Plotly output includes the title and break-even reference line."""
     assert "plotly" in html.lower(), "Expected Plotly HTML output"
