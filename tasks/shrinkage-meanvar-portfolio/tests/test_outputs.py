@@ -148,8 +148,8 @@ def test_plotly_html_contains_expected_content():
     assert '"type":"line"' in html, "Break-even reference line missing from Plotly HTML"
     assert ('"y0":1.0' in html or '"y0": 1.0' in html), "Break-even reference line y0 missing from Plotly HTML"
     assert ('"y1":1.0' in html or '"y1": 1.0' in html), "Break-even reference line y1 missing from Plotly HTML"
-    assert '"type":"line"' in html and ('"y0":1.0' in html or '"y0": 1.0' in html), "Break-even reference line missing from Plotly HTML"
-    assert '"type":"line"' in html and '"y0":1.0' in html and '"y1":1.0' in html, "Break-even reference line missing from Plotly HTML"
+    assert "Ledoit-Wolf Mean-Variance Portfolio" in html, "Expected title not found in Plotly HTML"
+    assert '"type":"line"' in html and ('"y0":1.0' in html or '"y0": 1.0' in html) and ('"y1":1.0' in html or '"y1": 1.0' in html), "Break-even reference line missing from Plotly HTML"
 
 
 def test_rebalance_dates_follow_month_end_schedule_and_minimum_history():
