@@ -187,4 +187,3 @@ Save `/app/output/cumulative_returns.html` with:
 
 - Use the cleaned data only
 - Use simple daily returns from adjusted close prices
-- If the optimizer fails, you must still return a valid constrained solution
